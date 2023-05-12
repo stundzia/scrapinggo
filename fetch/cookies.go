@@ -6,7 +6,6 @@ import (
 	"net/http"
 	"net/http/cookiejar"
 	"net/url"
-	//"net/url"
 )
 
 // CookiesExample - shows how to handle cookies via CookieJar on http.Client

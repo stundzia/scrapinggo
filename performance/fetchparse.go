@@ -3,13 +3,15 @@ package performance
 import (
 	"context"
 	"fmt"
-	"github.com/stundzia/scrapinggo/fetch"
-	"github.com/stundzia/scrapinggo/parse"
-	"golang.org/x/sync/semaphore"
 	"strconv"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"golang.org/x/sync/semaphore"
+
+	"github.com/stundzia/scrapinggo/fetch"
+	"github.com/stundzia/scrapinggo/parse"
 )
 
 func TestBashOrgWithParsing(parallel int) {

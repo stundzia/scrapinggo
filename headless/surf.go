@@ -2,6 +2,7 @@ package headless
 
 import (
 	"fmt"
+
 	"github.com/PuerkitoBio/goquery"
 	"gopkg.in/headzoo/surf.v1"
 )
